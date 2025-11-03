@@ -1,0 +1,76 @@
+html, 
+body{
+    padding: 0px;
+    margin: 0px;
+    
+}
+#home{
+    
+}
+.menu{
+
+     font-family: "Nunito", sans-serif;
+}
+.paragraf{
+    color: black;
+    opacity: 0.3;
+    width: 70%;
+    margin-left: 10%;
+    margin-top: 10px;
+}
+.tombol > a{
+    margin-left: 15%;
+    margin-top: 10px;
+    text-decoration: none;
+    background-color:#222831;
+   border-radius: 5px;
+   color: aliceblue;
+   font-size: large;
+    font-family: "Sacramento", cursive;
+}
+.trend > img{
+ margin-top: 5%;
+    opacity: 0.8;
+width: 200px;
+  height: 150px; /* atur sesuai kebutuhan */
+  object-fit: cover; /* biar proporsional */
+  border-radius: 8px;
+  
+
+
+}
+.trend{
+display: grid;
+  grid-template-columns: repeat(3,3 00px); /* tiap kolom minimal 150px */
+  column-gap:1px;
+  justify-content: center;
+  margin-top: 5%;
+  
+
+
+}
+
+   
+.trend1 > h1{
+    text-align: center;
+     font-family: "Sacramento", cursive;
+     font-size: xx-large;
+}
+.colum{
+    margin-top: 10%;
+    text-align: center;
+    font-size: xx-large;
+     font-family: "Sacramento", cursive;
+}
+.card-body > img{
+    height: 25vh;
+    padding-left: 8px;
+
+}
+.bayar > a{
+    text-decoration: none;
+    margin-left: 20px;
+}
+.bayar{
+    margin-top: 15px;
+}
